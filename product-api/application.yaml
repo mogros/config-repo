@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: product-api
+
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env, health, info, circuitbreakers, circuitbreakerevents
+  endpoint:
+    health:
+      show-details: always
+    env:
+      show-values: always
+  health:
+    circuitbreakers:
+      enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
