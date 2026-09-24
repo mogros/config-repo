@@ -26,7 +26,7 @@ spring:
     type: redis
 
   mongodb:
-    uri: mongodb+srv://romeropajuelorenzo_db_user:wa4cqdoiAHfKtTBI@cluster0.kdxrkh9.mongodb.net/?appName=Cluster0
+    uri: mongodb+srv://mogros_db_user:9sEiqF04VzenfL0s@cluster0.t0wpwn7.mongodb.net/?appName=Cluster0
     database: ProductDB-Auditoria
 
 eureka:
