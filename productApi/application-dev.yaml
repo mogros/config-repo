@@ -17,10 +17,10 @@ spring:
 
   data:
     redis:
-      host: redis-19217.c251.east-us-mz.azure.cloud.redislabs.com
-      port: 19217
+      host: redis-19353.c251.east-us-mz.azure.cloud.redislabs.com
+      port: 19353
       username: default
-      password: bRWruk3Nnzpl9NKpSA62pTqagiRuqgcj
+      password: aZGi0FnwXndgWTIyUoXNivxwX9DifB71
 
   cache:
     type: redis
